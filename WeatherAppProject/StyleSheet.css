@@ -1,0 +1,38 @@
+.background
+{
+	background-image: url("img.jpg");
+	height: 100%;
+	filter: blur(8px);
+  		-webkit-filter: blur(8px);
+  		
+}
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.container
+{
+	position: absolute;
+  	top: 30%;
+  	left: 10%;
+}
+.shadow
+{
+	text-shadow: 5px 5px 7px #6092e0;
+}
+#result
+{
+	background-color:#6092e0;
+	width: 530px;
+	height: 300px;
+	position: absolute;
+	left: 31%;
+	top:130%;
+	display: none;
+	box-shadow: 10px 10px 7px grey;
+}
+.show
+{
+	display: block;
+}
